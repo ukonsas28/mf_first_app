@@ -1,3 +1,5 @@
-export default function Root(props) {
-  return <section>{props.name} is mounted! WebStorm is install!</section>;
+import App from "./app";
+
+export default function Root() {
+  return <App />;
 }

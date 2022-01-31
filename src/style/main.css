@@ -1,0 +1,52 @@
+@import './normalize.css';
+
+body {
+    color: var(--black-text-color);
+    font-family: var(--text-ff);
+    font-size: var(--text-size);
+}
+* {
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+    color: var(--title-color);
+    font-family: var(--title-ff);
+    font-size: var(--title-size);
+}
+a {
+    color: var(--title-color);
+    text-decoration: none;
+}
+.container {
+    max-width: 1280px;
+    padding: 60px;
+}
+
+:root {
+    --main-color: #3c5280;
+    --sub-color: #272b33;
+    --title-color: #ebf0fa;
+    --text-color: #fff;
+    --black-text-color: #000;
+    --title-ff: "Zen Kurenaido", sans-serif;
+    --text-ff: "Poiret One", cursive;
+    --title-size: 32px;
+    --text-size: 18px;
+}
+
+
+
+
